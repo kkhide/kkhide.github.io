@@ -1,0 +1,42 @@
+.message-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  padding: 5em 0 2em;
+}
+
+.message-messages {
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+  overflow: auto;
+  margin-bottom: 25px;
+  & > div {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+}
+
+.message-item {
+  display: flex;
+  flex-direction: column;
+  span {
+    background: rgba(24, 53, 150, 0.795);
+    border-radius: 1em;
+    padding: 0.8em;
+    color: #fff;
+  }
+}
+
+.message-send {
+  display: flex;
+  gap: 10px;
+}
+
+.message-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
